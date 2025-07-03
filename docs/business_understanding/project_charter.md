@@ -2,27 +2,51 @@
 
 ## Nombre del Proyecto
 
-[Nombre del proyecto aquí]
+Predicción del Abandono Estudiantil en Educación Superior usando Machine Learning
 
 ## Objetivo del Proyecto
 
-[Descripción breve del objetivo del proyecto y por qué es importante]
+Desarrollar un sistema predictivo basado en Machine Learning que identifique estudiantes con alto riesgo de abandonar sus estudios universitarios, utilizando variables académicas, socioeconómicas y demográficas.
+Este proyecto permitirá a la universidad anticipar la deserción y diseñar intervenciones preventivas más efectivas, impactando positivamente la retención y el éxito estudiantil.
 
 ## Alcance del Proyecto
 
 ### Incluye:
 
-- [Descripción de los datos disponibles]
-- [Descripción de los resultados esperados]
-- [Criterios de éxito del proyecto]
+Análisis y modelado de un dataset real de estudiantes universitarios, con variables como: notas, edad, estado civil, asistencia, situación socioeconómica, entre otras.
+
+Exploración y limpieza de los datos, extracción de características, selección de variables y modelado predictivo.
+
+Comparación y evaluación de varios algoritmos de clasificación (Regresión Logística, Árboles de Decisión, Random Forest, etc.).
+
+Implementación de validación cruzada y optimización de hiperparámetros.
+
+Visualización de resultados y análisis de importancia de variables.
+
+Generación de recomendaciones y reporte final para la universidad.
+
+Documentación del proceso siguiendo el ciclo de vida de la ciencia de datos y metodologías ágiles.
+
+Criterios de éxito del proyecto:
+Precisión del modelo ≥ 75% en la predicción del abandono.
+
+Entregables documentados según la estructura TDSP.
+
+Recomendaciones accionables para la institución.
 
 ### Excluye:
 
-- [Descripción de lo que no está incluido en el proyecto]
+Implementación en tiempo real o integración con sistemas universitarios.
+
+Análisis financiero detallado del impacto de la deserción.
+
+Evaluación de variables no incluidas en el dataset seleccionado.
 
 ## Metodología
 
-[Descripción breve de la metodología que se utilizará para llevar a cabo el proyecto]
+El proyecto seguirá una combinación de metodologías ágiles (Scrum) y el ciclo de vida estándar de ciencia de datos (TDSP).
+Cada fase será desarrollada de manera iterativa, permitiendo mejoras continuas y adaptaciones según el análisis de los resultados.
+Se emplearán herramientas como Python, pandas, scikit-learn y plataformas colaborativas como GitHub para el control de versiones y gestión del proyecto.
 
 ## Cronograma
 
@@ -38,18 +62,22 @@ Hay que tener en cuenta que estas fechas son de ejemplo, estas deben ajustarse d
 
 ## Equipo del Proyecto
 
-- [Nombre y cargo del líder del proyecto]
-- [Nombre y cargo de los miembros del equipo]
+Daniel Enrique Romero Cantor 
+Ivan Herney Hernandez 
+
 
 ## Presupuesto
 
-[Descripción del presupuesto asignado al proyecto]
+Proyecto académico: no se asigna presupuesto monetario.
+Se utilizan recursos computacionales propios y plataformas open source.
 
 ## Stakeholders
 
-- [Nombre y cargo de los stakeholders del proyecto]
-- [Descripción de la relación con los stakeholders]
-- [Expectativas de los stakeholders]
+Directores de programa académico: Esperan conocer perfiles de estudiantes en riesgo y estrategias para reducir la deserción.
+
+Bienestar universitario: Requiere identificar casos prioritarios para intervención.
+
+Estudiantes y familias: Se benefician de estrategias de acompañamiento más oportunas.
 
 ## Aprobaciones
 
