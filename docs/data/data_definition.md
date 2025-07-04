@@ -14,7 +14,7 @@ Este script utiliza la librería pandas para leer los datos desde el archivo CSV
 import pandas as pd
 
 # Ruta de origen
-ruta_origen = 'data/raw/data.csv'
+ruta_origen = 'data/data.csv'
 
 # Carga del archivo con el delimitador correcto
 df = pd.read_csv(ruta_origen, sep=';')
@@ -32,7 +32,7 @@ Ruta de datos destino:
 ### Rutas de origen de datos
 
 Ubicación del archivo de origen:
-Carpeta /data/raw/ dentro del repositorio del proyecto, archivo data.csv.
+Carpeta /data/ dentro del repositorio del proyecto, archivo data.csv.
 
 Estructura del archivo de origen:
 Formato: CSV (valores separados por punto y coma ;).
