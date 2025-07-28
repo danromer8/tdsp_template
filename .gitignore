@@ -1,5 +1,37 @@
-**/*__pycache__/*
-*.env
+# MLflow
+mlruns/
+tracking.db
+
+# Modelos serializados
+*.joblib
+*.pkl
+*.h5
+*.onnx
+
+# Entorno virtual
+venv/
+.venv/
+env/
+
+# Variables de entorno y credenciales
+.env
+.env.*
 env_vars*
 credentials*
-**/build/*
+
+# Checkpoints y outputs de notebooks
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS temporales
+.DS_Store
+Thumbs.db
+
+# IDE config
+.vscode/
+.idea/
