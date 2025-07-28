@@ -46,7 +46,7 @@ Para evaluar el desempeño se consideraron:
   - F1-score: 0.77  
 
 ## Análisis de los resultados
-El modelo de Regresión Logística supera el umbral de éxito definido (75 % de accuracy), alcanzando un **86 %** de acierto global. La alta precision para la clase de abandono (0.85) indica que cuando el modelo predice abandono, lo hace con buena exactitud. Sin embargo, el **recall de 0.70** para esa misma clase revela que el modelo deja pasar el **30 %** de estudiantes que realmente abandonan (falsos negativos), lo cual puede ser crítico en un escenario de intervención temprana.
+El modelo de Regresión Logística supera el umbral de éxito definido (75 % de accuracy), alcanzando un **83.6 %** de acierto global. La alta precision para la clase de abandono (0.85) indica que cuando el modelo predice abandono, lo hace con buena exactitud. Sin embargo, el **recall de 0.70** para esa misma clase revela que el modelo deja pasar el **30 %** de estudiantes que realmente abandonan (falsos negativos), lo cual puede ser crítico en un escenario de intervención temprana.
 
 ## Conclusiones
 - La **línea base** de Regresión Logística muestra un desempeño sólido en precisión general y para la detección de no abandono.  
