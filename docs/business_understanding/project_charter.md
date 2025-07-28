@@ -20,7 +20,7 @@ Este proyecto permitirá a la universidad anticipar la deserción y diseñar int
 
 - Análisis y modelado de un dataset real de estudiantes universitarios, con variables como: notas, edad, estado civil, asistencia, situación socioeconómica, entre otras.
 - Exploración y limpieza de los datos, extracción de características, selección de variables y modelado predictivo.
-- Comparación y evaluación de varios algoritmos de clasificación (Regresión Logística, Árboles de Decisión, Random Forest, etc.).
+- Comparación y evaluación de varios algoritmos de clasificación (Regresión Logística, Árboles de Decisión, Random Forest, XGBoost etc.).
 - Implementación de validación cruzada y optimización de hiperparámetros.
 - Visualización de resultados y análisis de importancia de variables.
 - Generación de recomendaciones y reporte final para la universidad.
