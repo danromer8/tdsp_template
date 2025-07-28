@@ -90,7 +90,11 @@ Para priorizar las variables más predictivas de `Target` se usaron dos enfoques
 ## 6. Relación entre variables explicativas y variable objetivo
 
 - **Matriz de correlación**  
-  ![Matriz de correlación](./figures/corr_matrix.png)  
+  
+<div align="center">
+<img src="https://drive.google.com/uc?export=view&id=1J1Z3kxMDYeDEsucC-B8wdGRtuAhAkLvG" width="60%">
+</div>
+
   Destaca fuertes correlaciones entre calificaciones y unidades de crédito; las variables socio‐económicas (ocupación de padres, nacionalidad) muestran baja relación lineal.
 
 - **Diagramas de violín**  
