@@ -35,8 +35,16 @@ Editar
 </div>
 
 **Descripción:**  
-El cliente (navegador o consumidor vía API) accede al endpoint `/predict` de FastAPI.  
-FastAPI recibe el JSON, lo convierte en `DataFrame`, consulta el modelo (cargado desde MLflow o archivo local), y retorna la predicción en formato JSON.  
+Esta arquitectura describe un sistema completo para el despliegue y consumo de modelos de Machine Learning. Se compone de tres elementos principales que trabajan en conjunto:
+
+Cliente y Entorno Web: El cliente interactúa con un entorno web, que sirve como interfaz de usuario. Este entorno web es el encargado de consumir las predicciones del modelo.
+
+Servidor FastAPI: El servidor FastAPI actúa como una API que expone el modelo de Machine Learning. Cuando el entorno web necesita una predicción, envía una solicitud a este servidor. FastAPI, a su vez, se comunica con el servidor MLflow para obtener el modelo en producción.
+
+Servidor MLflow: El servidor MLflow es la pieza central para la gestión del ciclo de vida del modelo. Aquí se realiza el seguimiento de los experimentos de Machine Learning y se almacenan y versionan los modelos, permitiendo que el servidor FastAPI acceda a la versión "en producción" del modelo para realizar las inferencias.
+
+Esta configuración modular permite una clara separación de responsabilidades, facilitando el desarrollo, la gestión de modelos y el escalado de la aplicación.
+
 La interfaz de usuario (Gradio) también consume el endpoint local para realizar predicciones y mostrar interpretabilidad (SHAP).
 
 ---
