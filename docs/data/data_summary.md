@@ -105,9 +105,6 @@ Para priorizar las variables más predictivas de `Target` se usaron dos enfoques
 Se generaron para cada variable numérica frente a `Target` evidenciando algunos comportamientos entre variables y las subclases de la variable Target
 Permiten visualizar la dispersión y mediana de cada grupo.
 
-- **Scatter plots**
-Algunas parejas de variables (e.g., Admission grade vs. Curricular units 1st sem (grade)) muestran agrupamientos claros según la clase.
-
 ---
 
 ## 7.Próximos pasos
