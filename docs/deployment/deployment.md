@@ -64,10 +64,14 @@ La interfaz de usuario (Gradio) también consume el endpoint local para realizar
 
 - **Salida esperada del endpoint `/predict`:**
   ```json
-  {
-    "predictions": ["Dropout", "Graduate"],
-    "prob_dropout": [0.75, 0.10]
-  }
+  	{
+  "predictions": [
+    0
+  ],
+  "prob_dropout": [
+    0.9279999732971191
+  ]
+}
 
 
 - **Inicio del servidor local:**
