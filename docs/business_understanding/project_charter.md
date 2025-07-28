@@ -57,7 +57,7 @@ Se emplearán herramientas como **Python**, `pandas`, `scikit-learn` y plataform
 | Preprocesamiento, análisis exploratorio     | 4 semanas         | del 29 de Junio al 5 de julio   |
 | Modelamiento y extracción de características| 4 semanas         | del 6 de junio al 12 de julio  |
 | Despliegue                                 | 2 semanas         | del 13 de julio al 19 de julio  |
-| Evaluación y entrega final                  | 3 semanas         | del 20 de agosto al 27 de agosto |
+| Evaluación y entrega final                  | 3 semanas         | del 20 de julio al 27 de julio |
 
 ---
 
