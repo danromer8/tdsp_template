@@ -98,11 +98,14 @@ Para priorizar las variables más predictivas de `Target` se usaron dos enfoques
   Destaca fuertes correlaciones entre calificaciones y unidades de crédito; las variables socio‐económicas (ocupación de padres, nacionalidad) muestran baja relación lineal.
 
 - **Diagramas de violín**  
-  Se generaron para cada variable numérica frente a `Target` evidenciando algunos comportamientos entre variables y las subclases de la variable Target
+<div align="center">
+<img src="https://drive.google.com/uc?export=view&id=1_AyDmMU8Wa_mD-XFASAiKZUPzfRR373n" width="60%">
+</div>
 
+Se generaron para cada variable numérica frente a `Target` evidenciando algunos comportamientos entre variables y las subclases de la variable Target
 Permiten visualizar la dispersión y mediana de cada grupo.
 
-Scatter plots
+- **Scatter plots**
 Algunas parejas de variables (e.g., Admission grade vs. Curricular units 1st sem (grade)) muestran agrupamientos claros según la clase.
 
 ---
